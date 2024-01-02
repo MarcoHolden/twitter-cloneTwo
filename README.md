@@ -29,6 +29,7 @@ The code was largely influenced by TypeFast at the moment it strongly resembles 
 
 ## Images
 I got the images from flaticon
+
 Twitter.png -> Pixel perfect
 
 Home.png -> Kiranshastry
