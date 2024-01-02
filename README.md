@@ -28,23 +28,23 @@ Things you may want to cover:
 The code was largely influenced by TypeFast at the moment it strongly resembles his project. The future code will later be developed and made largely my own.
 
 ## Images
-I got the images from flaticon
-
-Twitter.png -> Pixel perfect
-
-Home.png -> Kiranshastry
-Home-black.png -> Freepik
-
-Hashtag.png -> Pixel perfect
-
-Notification -> Freepik
-Notification-black -> Freepik
-
-messages.png -> Freepik
-Messages-black.png -> Freepik
-
-Bookmark-white.png -> Dave Gandy
-Bookmark-black.png -> Freepik
-
-User.png -> Freepik
-User-black.png -> Freepik
+I got the images from flaticon:
+  
+  -Twitter.png -> Pixel perfect
+  
+  -Home.png -> Kiranshastry
+  -Home-black.png -> Freepik
+  
+  -Hashtag.png -> Pixel perfect
+  
+  -Notification -> Freepik
+  -Notification-black -> Freepik
+  
+  -Messages.png -> Freepik
+  -Messages-black.png -> Freepik
+  
+  -Bookmark.png -> Dave Gandy
+  -Bookmark-black.png -> Freepik
+  
+  -User.png -> Freepik
+  -User-black.png -> Freepik
