@@ -13,15 +13,31 @@ RSpec.describe "Usernames", type: :request do
   end
 
   describe "PUT update" do
-    it "updates the username" do
-      expect do
-        put usernames_path(user), params: {
-          users: {
-            username: "foobar"
+    context "valid params" do
+      it "updates the username" do
+        expect do
+          put usernames_path(user), params: {
+            users: {
+              username: "foobar"
+            }
           }
-        }.to change { user.reload.username }.from(nil).to("foobar")
+        end.to change { user.reload.username }.from(nil).to("foobar")
+        expect(response).to redirect_to(dashboard_path)
       end
-      expect(response).to redirect_to(dashboard_path)
     end
+
+    context "invalid params" do
+      it "updates the username" do
+        expect do
+          put usernames_path(user), params: {
+            users: {
+              username: ""
+            }
+          }
+        end.to change { user.reload.username }
+        expect(response).to redirect_to(new_usernames_path)
+      end
+    end
+
   end
 end
