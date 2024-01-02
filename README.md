@@ -28,5 +28,22 @@ Things you may want to cover:
 The code was largely influenced by TypeFast at the moment it strongly resembles his project. The future code will later be developed and made largely my own.
 
 ## Images
-The images I used for the twitter icon which will later change is credited to Pixel perfect
-The image I used for the home icon which will later change is credited to FreePik
+I got the images from flaticon
+Twitter.png -> Pixel perfect
+
+Home.png -> Kiranshastry
+Home-black.png -> Freepik
+
+Hashtag.png -> Pixel perfect
+
+Notification -> Freepik
+Notification-black -> Freepik
+
+messages.png -> Freepik
+Messages-black.png -> Freepik
+
+Bookmark-white.png -> Dave Gandy
+Bookmark-black.png -> Freepik
+
+User.png -> Freepik
+User-black.png -> Freepik
