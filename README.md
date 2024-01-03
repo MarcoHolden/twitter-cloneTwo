@@ -26,8 +26,7 @@ Things you may want to cover:
 ## Progress
 I have a Log in page, Sign In page, Dashboard Page and the most styled one at the moment is Dashboard which is shown below.
 
-<img width="1410" alt="Screenshot 2024-01-02 at 10 16 06 PM" src="https://github.com/MarcoHolden/twitter-cloneTwo/assets/136394451/71c2bce0-4fd8-4f88-9070-976daa6ebbb9">
-
+<img width="1512" alt="Screenshot 2024-01-02 at 11 21 54 PM" src="https://github.com/MarcoHolden/twitter-cloneTwo/assets/136394451/43360804-fa7c-4efb-a2a5-7b33ed7f2d5c">
 
 ## TypeFast
 The code was largely influenced by TypeFast at the moment it strongly resembles his project. The future code will later be developed and made largely my own.
