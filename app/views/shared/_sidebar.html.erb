@@ -1,57 +1,78 @@
+
 <aside class="col side-navbar">
-<%= link_to dashboard_path, class: "d-flex align-items-center fs-5 px-3 mb-2" do %>
-    <div class="px-2 py-2 rounded-circle">
-        <%= image_tag "twitter.png", width: "32" %>
-    </div>
-<% end %>
+  <%= link_to dashboard_path, class: "d-flex align-items-center fs-5 px-3 mb-2" do %>
+      <div class="px-2 py-2 rounded-circle">
+          <%= image_tag "twitter.png", width: "32" %>
+      </div>
+  <% end %>
 
-<%= link_to dashboard_path, class: "d-flex align-items-center fs-5 mb-2" do %>
-    <div class="px-4 py-2 rounded-pill">
-        <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "home.png", width: "32" %></span>
-        Home
-    </div>
-<% end %>
+  <%= link_to dashboard_path, class: "d-flex align-items-center fs-5 mb-2" do %>
+      <div class="px-4 py-2 rounded-pill">
+          <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "home.png", width: "32" %></span>
+          Home
+      </div>
+  <% end %>
 
-<%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
-    <div class="px-4 py-2 rounded-pill">
-        <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "hashtag-small.png", width: "32" %></span>
-        Explore
-    </div>
-<% end %>
+  <%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
+      <div class="px-4 py-2 rounded-pill">
+          <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "hashtag-small.png", width: "32" %></span>
+          Explore
+      </div>
+  <% end %>
 
-<%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
-    <div class="px-4 py-2 rounded-pill">
-        <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "notification.png", width: "32" %></span>
-        Notifications
-    </div>
-<% end %>
+  <%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
+      <div class="px-4 py-2 rounded-pill">
+          <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "notification.png", width: "32" %></span>
+          Notifications
+      </div>
+  <% end %>
 
-<%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
-    <div class="px-4 py-2 rounded-pill">
-        <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "messages.png", width: "32" %></span>
-        Messages
-    </div>
-<% end %>
+  <%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
+      <div class="px-4 py-2 rounded-pill">
+          <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "messages.png", width: "32" %></span>
+          Messages
+      </div>
+  <% end %>
 
-<%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
-    <div class="px-4 py-2 rounded-pill">
-        <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "bookmark.png", width: "32" %></span>
-        Bookmarks
-    </div>
-<% end %>
+  <%= link_to "#", class: "d-flex align-items-center fs-5 mb-2" do %>
+      <div class="px-4 py-2 rounded-pill">
+          <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "bookmark.png", width: "32" %></span>
+          Bookmarks
+      </div>
+  <% end %>
 
-<%= link_to "#", class: "d-flex align-items-center fs-5 mb-4" do %>
-    <div class="px-4 py-2 rounded-pill">
-        <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "user.png", width: "32" %></span>
-        Profile
-    </div>
-<% end %>
+  <%= link_to "#", class: "d-flex align-items-center fs-5 mb-4" do %>
+      <div class="px-4 py-2 rounded-pill">
+          <span class="me-4 position-relative" style="bottom: 3px;"><%= image_tag "user.png", width: "32" %></span>
+          Profile
+      </div>
+  <% end %>
 
-<div class="d-flex align-items-center fs-4 px-4 mb-3">
-    <%= button_tag "Tweet", class: "btn btn-primary btn-lg btn-twitter w-100 rounded-pill" %>
-</div>
+  <div class="d-flex align-items-center fs-4 px-4 mb-3">
+      <button type="button" class="btn btn-primary btn-lg btn-twitter w-100 rounded-pill" data-toggle="modal" data-target="#exampleModal">
+        Tweet
+      </button>
+  </div>
 
-<div class="d-flex align-items-center fs-6 px-4"> 
-    <%= link_to "Log out", destroy_user_session_path, data: { turbo_method: :delete }, class: "twitter-link" %>
-</div>
+  <div class="d-flex align-items-center fs-6 px-4"> 
+      <%= link_to "Log out", destroy_user_session_path, data:{ turbo_method: :delete }, class: "twitter-link" %>
+  </div>
 </aside>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<!-- Tweet Form Modal -->
+<div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">  
+        <button type="button" class="btn-close mx-0" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <%= render "shared/tweet_form" %>
+      </div>
+    </div>
+  </div>
+</div>
