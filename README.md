@@ -33,7 +33,8 @@ I got the images from flaticon:
   - Twitter.png -> Pixel perfect
   - Home.png -> Kiranshastry
   - Home-black.png -> Freepik
-  - Hashtag.png -> Pixel perfect
+  - Hashtag-small.png -> Pixel perfect
+  - Hashtag-large.png -> Pixel perfect
   - Notification -> Freepik
   - Notification-black -> Freepik
   - Messages.png -> Freepik
