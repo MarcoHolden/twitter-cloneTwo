@@ -24,6 +24,7 @@ Things you may want to cover:
 * ...
 
 ## Progress
+I have a Log in page, Sign In page, Dashboard Page and the most styled one at the moment is Dashboard which is shown below.
 
 <img width="1410" alt="Screenshot 2024-01-02 at 8 18 13 PM" src="https://github.com/MarcoHolden/twitter-cloneTwo/assets/136394451/e0f8de2d-139f-487a-be1c-a7b10224e94a">
 
